@@ -18,7 +18,6 @@ var cfg = getConfig()
 type Config struct {
 	Starling struct {
 		Token string `yaml:"bearer_token"`
-		ID    string `yaml:"account_id"`
 	} `yaml:"starling_config"`
 }
 
